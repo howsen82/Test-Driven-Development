@@ -68,7 +68,8 @@ Show coverage report
 coverage report -m
 ```
 
-Simplify nosetests with configuration, create _setup.cfg_ file
+Simplify nosetests with configuration
+Contents of `setup.cfg` should be:
 ```
 [notests]
 verbosity=2
