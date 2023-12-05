@@ -20,3 +20,8 @@
 * RSpec (Popular framework for Ruby)
 * Nose (Test runner, with color formatting)
 * Coverage
+
+# Summary
+* TDD saves development time and ensures that the code works as expected.
+* To create a DevOps pipeline, you must automate all testing.
+* Nose is a Python test runner that can add color to test output and call the code coverage tool. 
