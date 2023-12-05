@@ -90,4 +90,16 @@ nosetests
 # Summary
 * TDD saves development time and ensures that the code works as expected.
 * To create a DevOps pipeline, you must automate all testing.
-* Nose is a Python test runner that can add color to test output and call the code coverage tool. 
+* Nose is a Python test runner that can add color to test output and call the code coverage tool.
+* The Red/Green/Refactor workflow includes three steps:
+  * Write a failing unit test case for the code you wish you had
+  * Write enough code to pass this test case
+  * Refactor the code to improve its quality
+* To create a DevOps pipeline, you must automate all testing
+* To create assertions in Python, developers can use the assert () function or any additional PyUnit asserts
+* Happy paths verify that a function returns positive outcomes when expected, while sad paths confirm that a function responds to exceptions appropriately and without breaking
+* Test fixtures are helpful for many testing situations, such as creating mock objects and loading a database with a known data set
+* Test fixtures operate at three levels of specificity:
+  * Module
+  * Test case
+  * Test
